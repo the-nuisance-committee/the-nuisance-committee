@@ -1,0 +1,38 @@
+* {
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+}
+
+p {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+@media (min-width: 900px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 900px) and (min-width: 500px) {
+  h1 {
+    font-size: 65px;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 400px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 400px) and (min-width: 350px) {
+  h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 350px) {
+  h1 {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,39 @@
+section {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+@media (max-width: 600px) {
+  section {
+    height: 360px;
+  }
+}
+
+.text-wrapper {
+  max-width: 40%;
+}
+
+@media (max-width: 600px) {
+  .text-wrapper {
+    max-width: 80%;
+  }
+}
+
+footer {
+  background-color: #e1e1e1;
+}
+
+footer .text-wrapper {
+  max-width: 60%;
+}
